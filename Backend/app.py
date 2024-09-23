@@ -23,7 +23,7 @@ from io import BytesIO
 
 app = FastAPI()
 
-origins = ["*"]
+origins = ["https://healthcare-app-nine.vercel.app"]
 
 
 app.add_middleware(
