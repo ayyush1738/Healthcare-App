@@ -26,7 +26,7 @@ const Navbar = () => {
     <nav className="bg-white bg-opacity-75 backdrop-blur-lg text-gray-800 p-4 flex justify-between items-center fixed top-0 w-full z-30 transition duration-300 ease-in-out shadow-md" style={{ height: '70px' }}>
       {/* Project name or logo on the left */}
       <div className="flex items-center"> {/* Added flex and items-center to align logo and text */}
-        <img src="../.././public/logo.png" alt="HealthLens Logo" className="h-10 mr-3" />
+        <img src="/logo.png" alt="HealthLens Logo" className="h-10 mr-3" />
       </div>
       {/* Navigation items aligned to the right */}
       <ul className="flex space-x-4 items-center"> {/* Added items-center to align navigation items */}

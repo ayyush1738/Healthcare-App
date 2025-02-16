@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="p-4 flex justify-between items-center h-72 bg-gray-800"  id="contact">
       {/* Left side */}
       <div className="flex space-x-4">
-        <img src="../.././public/logo.png" alt="Fortis" className="h-12" />
+        <img src="/logo.png" alt="Fortis" className="h-12" />
         <div>
           <p className="font-bold text-white-800">HealthLens</p>
           <address className="not-italic text-sm " style={{ font: " rgb(255 255 255 )" }}>
