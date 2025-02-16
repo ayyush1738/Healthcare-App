@@ -5,10 +5,10 @@ import { FaInstagram, FaFacebookF, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <div className="p-4 flex justify-between items-center" style={{ background: " rgb(155 174 230)" }}>
+    <div className="p-4 flex justify-between items-center h-72 bg-gray-800"  id="contact">
       {/* Left side */}
       <div className="flex space-x-4">
-        <img src="public\logo.png" alt="Fortis" className="h-12" />
+        <img src="../.././public/logo.png" alt="Fortis" className="h-12" />
         <div>
           <p className="font-bold text-white-800">HealthLens</p>
           <address className="not-italic text-sm " style={{ font: " rgb(255 255 255 )" }}>

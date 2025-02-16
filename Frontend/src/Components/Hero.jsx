@@ -60,7 +60,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-blue-50 py-20 px-4 md:px-0 flex items-center">
+    <div className="bg-blue-50 py-20 px-4 md:px-0 flex items-center" id="home">
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
           <div className="text-left md:text-center md:mr-12">
@@ -76,7 +76,7 @@ const Hero = () => {
           </div>
           <div className="hidden md:block w-596 h-896 bg-transparent ml-12">
             {/* Add your image here */}
-            <img src="public\doctor.png" alt="HealthLens Image" className="object-contain" style={{ width: '300%', height: '300%', maxWidth: '300%', position: 'relative', left: '-124%' }} />
+            <img src="../.././public/doctor.png" alt="HealthLens Image" className="object-contain" style={{ width: '300%', height: '300%', maxWidth: '300%', position: 'relative', left: '-124%' }} />
           </div>
         </div>
       </div>
