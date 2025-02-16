@@ -76,7 +76,7 @@ const Hero = () => {
           </div>
           <div className="hidden md:block w-596 h-896 bg-transparent ml-12">
             {/* Add your image here */}
-            <img src="Frontend\public\doctor.png" alt="HealthLens Image" className="object-contain" style={{ width: '300%', height: '300%', maxWidth: '300%', position: 'relative', left: '-124%' }} />
+            <img src="../.././public/doctor.png" alt="HealthLens Image" className="object-contain" style={{ width: '300%', height: '300%', maxWidth: '300%', position: 'relative', left: '-124%' }} />
           </div>
         </div>
       </div>

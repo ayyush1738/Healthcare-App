@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
-import chatImage from '../../public/chat.png';
+import chatImage from '../.././public/chat.png';
 import ReactMarkdown from "react-markdown";
 
 function Chat() {
