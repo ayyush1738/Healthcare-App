@@ -44,7 +44,7 @@ function ImageUploader() {
     formData.append("email", localStorage.getItem("email"));
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/explanation/", {
+      const response = await fetch("https://healthcare-app-backend-jpwuw7x3g-ayyush1738s-projects.vercel.app/explanation", {
         method: "POST",
         body: formData,
       });
@@ -81,7 +81,7 @@ function ImageUploader() {
     formData.append("email", localStorage.getItem("email"));
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/upload/", {
+      const response = await fetch("https://healthcare-app-backend-jpwuw7x3g-ayyush1738s-projects.vercel.app/upload", {
         method: "POST",
         body: formData,
       });
